@@ -209,7 +209,7 @@ body {
   background-color: transparent;
 }
 
-.button__container > button {
+.button__container > a > button {
   color: black;
   padding: 0.8rem 1.5rem;
   background-color: transparent;
@@ -221,7 +221,7 @@ body {
   cursor: pointer;
 }
 
-.button__container > button:hover {
+.button__container > a > button:hover {
   color: white;
   padding: 0.8rem 1.5rem;
   background-color: #0481f5;
