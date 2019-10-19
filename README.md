@@ -11,4 +11,3 @@ This is my current portfolio page which showcases my most recent projects.
 
 - HTML5
 - CSS3
-- JavaScript
