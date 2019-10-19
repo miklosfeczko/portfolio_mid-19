@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="shortcut icon" type="image/png" href="./img/first_logo_mf_smaller.png" />
 
-    <title>Miklos Feczko - Front-end developer</title>
+    <title>Miklos Feczko | Front-end Developer</title>
   </head>
 
   <body>
@@ -24,17 +24,17 @@
           <img src="./img/first_logo_mf.png" alt="Logo" class="logo__img" />
         </div>
         <nav class="user-nav">
-          <a href="#portfolio" class="user-nav__link">
-              <i class="far fa-folder-open"></i> <span>Porfolio</span>
+          <a href="https://github.com/miklosfeczko" class="user-nav__link">
+            <i class="fab fa-github-alt"></i> 
           </a>
           <a href="https://www.linkedin.com/in/miklosfeczko/" class="user-nav__link">
-              <i class="fab fa-linkedin-in"></i> <span>LinkedIn</span>
+              <i class="fab fa-linkedin-in"></i>
           </a>
           <a href="./Resume/MIKLOS FECZKO_CV.docx" class="user-nav__link">
-              <i class="far fa-file"></i> <span>Resume</span>
+               <span>Resume</span>
           </a>
           <a href="mailto:miklosfeczko02@gmail.com" class="user-nav__link">
-              <i class="far fa-envelope"></i> <span>E-mail</span>
+              <span>Email</span>
           </a>
         </nav>
       </div>
@@ -46,134 +46,154 @@
         <div class="hero__layer"></div>
         <div class="hero__content">
           <h1 class="hero__heading">
-            Hello! I'm <span class="hero__heading--name">Miklos Feczko</span
-            ><br />I'm a Front-end developer.
+            I'm <span class="hero__heading--name">Miklos Feczko</span
+            >,<br />I like creative problem solving <br />
+            and building ambitious apps.
           </h1>
-          <a href="#portfolio" class="btn" id="check_my_work">Check my work</a>
         </div>
       </section>
 
-
-      <!-- Portfolio Section -->
-
-      <header class="section-header">
-        <h1 class="section-header__heading">Portfolio</h1>
-        <p class="section-header__paragraph">My development projects.</p>
-      </header>
       
-      <section id="portfolio" class="container">
-        <div class="flex-grid">
+        <div class="wrapper">
+          <div class="movie__wrapper">
+              
+              <div class="movie__details">
+                  <h1>Movie Browser React</h1>
+                  <article>
+                    <h2>Project Brief</h2>
+                    My latest project to browse movies using the TMDb API. As the application grew I implemented more and more functionality into it. I used Material UI for responsive navbar and drawer. The user can also view trailers, cast information, biographies.
+                    <h2>Challenges</h2>
+                    I had to handle numerous API calls on each route. These routes also required different approach and implementation. I also used Material UI to give the user a better experience on smaller devices.
+                    <h2>Tech stack</h2>
+                  </article>
 
-          <article class="card">
-            <div class="card__thumbnail">
-              <a class="card__img-container">
-                 <img src='./img/itunes-reactjs.jpg' class="card__img">
-                </a>
-              </div>
-            <div class="card__description">
-            <h3 class="card__heading">
-              iTunes Music Finder
-            </h3>
-              <p class="card__text">
-                  This is an iTunes music finder application made with ReactJS using the iTunes API. The app lists songs depending on your search terms.
-              </p>
-              <a href="https://github.com/miklosfeczko/itunes-music-finder-reactjs" target="_blank" class="card__github">GitHub <i class="fab fa-github"></i></a>
-              <a href="https://itunes-music-finder-mf.netlify.com/" target="_blank" class="card__demo">Demo <i class="fas fa-globe-europe"></i></a>
-            </div>
-          </article>
+                  <div class="link__wrapper">
+                    <img src="./img/React-icon-2.png" />
+                    <img src="./img/sass-2.png" />
+                    <img src="./img/Css-2.png" />
+                    <img src="./img/html-2.png" />
+                  </div>
 
-          <article class="card">
-            <div class="card__thumbnail">
-              <a class="card__img-container">
-                 <img src='./img/mbr-screen.jpg' class="card__img">
-                </a>
-              </div>
-            <div class="card__description">
-            <h3 class="card__heading">
-              Movie Browser React
-            </h3>
-              <p class="card__text">
-                This React app is created to be able to browse movies and check their trailers, cast. It is based on TMDb API.
-              </p>
-              <a href="https://github.com/miklosfeczko/movie-browser-reactjs" target="_blank" class="card__github">GitHub <i class="fab fa-github"></i></a>
-              <a href="https://mbr-mf.netlify.com" target="_blank" class="card__demo">Demo <i class="fas fa-globe-europe"></i></a>
-            </div>
-          </article>
-          
-          <article class="card">
-            <div class="card__thumbnail">
-              <a class="card__img-container">
-                 <img src='./img/reddit-app-screen.jpg' class="card__img">
-                </a>
-              </div>
-            <div class="card__description">
-            <h3 class="card__heading">
-             Wallpapers from Reddit
-            </h3>
-              <p class="card__text">
-                This application was made to browse wallpapers and images using the Reddit API. The app looks for available images in the thread and lists them.
-              </p>
-              <a href="https://github.com/miklosfeczko/reddit-wallpaper-reactjs" target="_blank" class="card__github">GitHub <i class="fab fa-github"></i></a>
-              <a href="https://wallpapers-mf.netlify.com/" target="_blank" class="card__demo">Demo <i class="fas fa-globe-europe"></i></a>
-            </div>
-          </article>
-          
-          <article class="card">
-            <div class="card__thumbnail">
-              <a class="card__img-container">
-                 <img src='./img/tbr-screenshot-1.jpg' class="card__img">
-                </a>
-              </div>
-            <div class="card__description">
-            <h3 class="card__heading">
-              Twitch Browser React
-            </h3>
-              <p class="card__text">
-                This application was designed and built to browse and watch live Twitch streams. The app lists the streams based upon their view number counts.
-              </p>
-              <a href="https://github.com/miklosfeczko/twitch-browser-reactjs" target="_blank" class="card__github">GitHub <i class="fab fa-github"></i></a>
-              <a href="https://tbr-mf.netlify.com/" target="_blank" class="card__demo">Demo <i class="fas fa-globe-europe"></i></a>
-            </div>
-          </article>
-          
+                  <div class="button__container">
+                    <button>Live demo</button>
+                    <button>View code</button>
+                  </div> 
+                </div>
+
+                <div class="image__wrapper">
+                  <img src='./img/teszt-1.png' />
+                </div>
+            
           </div>
-      </section>
+        </div>  
+        
+        <div class="wrapper" id="brighter">
+            <div class="movie__wrapper">
+                
+                <div class="movie__details">
+                    <h1>Movie Browser React</h1>
+                    <article>
+                      <h2>Project Brief</h2>
+                      My latest project to browse movies using the TMDb API. As the application grew I implemented more and more functionality into it. I used Material UI for responsive navbar and drawer. The user can also view trailers, cast information, biographies.
+                      <h2>Challenges</h2>
+                      I had to handle numerous API calls on each route. These routes also required different approach and implementation. I also used Material UI to give the user a better experience on smaller devices.
+                      <h2>Tech stack</h2>
+  
+                    </article>
 
+                    <div class="link__wrapper">
+                        <img src="./img/React-icon-2.png" />
+                        <img src="./img/sass-2.png" />
+                        <img src="./img/bs-2.png" />
+                        <img src="./img/Css-2.png" />
+                        <img src="./img/html-2.png" />
+                      </div>
+
+                    <div class="button__container">
+                        <button>Live demo</button>
+                        <button>View code</button>
+                    </div> 
+                  </div>
+  
+                  <div class="image__wrapper">
+                    <img src='./img/teszt-2.png' />
+                  </div>
+                  
+                  
+            </div>
+          </div>       
+
+          <div class="wrapper">
+              <div class="movie__wrapper">
+                  
+                  <div class="movie__details">
+                      <h1>Movie Browser React</h1>
+                      <article>
+                        <h2>Project Brief</h2>
+                        My latest project to browse movies using the TMDb API. As the application grew I implemented more and more functionality into it. I used Material UI for responsive navbar and drawer. The user can also view trailers, cast information, biographies.
+                        <h2>Challenges</h2>
+                        I had to handle numerous API calls on each route. These routes also required different approach and implementation. I also used Material UI to give the user a better experience on smaller devices.
+                        <h2>Tech stack</h2>
     
+                      </article>
+
+                      <div class="link__wrapper">
+                          <img src="./img/React-icon-2.png" />
+                          <img src="./img/sass-2.png" />
+                          <img src="./img/Css-2.png" />
+                          <img src="./img/html-2.png" />
+                        </div>
+
+                        <div class="button__container">
+                          <button>Live demo</button>
+                          <button>View code</button>
+                      </div> 
+                    </div>
+    
+                    <div class="image__wrapper">
+                      <img src='./img/teszt-3.png' />
+                    </div>
+                
+              </div>
+            </div>  
+
+            <div class="wrapper" id="brighter">
+                <div class="movie__wrapper">
+                    
+                    <div class="movie__details">
+                        <h1>Movie Browser React</h1>
+                        <article>
+                          <h2>Project Brief</h2>
+                          My latest project to browse movies using the TMDb API. As the application grew I implemented more and more functionality into it. I used Material UI for responsive navbar and drawer. The user can also view trailers, cast information, biographies.
+                          <h2>Challenges</h2>
+                          I had to handle numerous API calls on each route. These routes also required different approach and implementation. I also used Material UI to give the user a better experience on smaller devices.
+                          <h2>Tech stack</h2>
+      
+                        </article>
+
+                        <div class="link__wrapper">
+                            <img src="./img/React-icon-2.png" />
+                            <img src="./img/bs-2.png" />
+                            <img src="./img/Css-2.png" />
+                            <img src="./img/html-2.png" />
+                          </div>
+
+                          <div class="button__container">
+                            <button>Live demo</button>
+                            <button>View code</button>
+                        </div> 
+                      </div>
+      
+                      <div class="image__wrapper">
+                        <img src='./img/teszt-4.png' />
+                      </div>
+                  
+                </div>
+              </div>       
+    
+         
     </main>
-    <!-- FOOTER SECTION -->
-    <footer class="footer">
-      <div class="container">
-        <div class="center-text">
-          <span class="copyright"
-            >&copy; 2019
-            <span class="copyright__name">Miklos Feczko</span></span
-          >
-          <p class="footer-nav">
-            <a href="#home" class="footer-nav__link">Home</a> &nbsp;|&nbsp;
-            <a href="./Resume/MIKLOS FECZKO_CV.docx" class="footer-nav__link">Resume</a> &nbsp;|&nbsp;
-            <a href="mailto:miklosfeczko02@gmail.com" class="footer-nav__link">E-mail</a>
-          </p>
-          <div class="social-media">
-            <a
-              href="https://github.com/miklosfeczko"
-              target="_blank"
-              class="social-media__icon"
-            >
-              <i class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/miklosfeczko/"
-              target="_blank"
-              class="social-media__icon"
-            >
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-           <img src="./img/first_logo_mf_smaller.png" alt="Logo" class="logo__img__footer" />
-          </div>
-        </div>
-      </div>
-    </footer>
+    
     <script src="script.js"></script>
   </body>
 </html>
