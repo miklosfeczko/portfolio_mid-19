@@ -122,6 +122,10 @@ body {
   color: #d8364c; 
 }
 
+.hero__heading--name::selection {
+  color: #404040;
+}
+
 .wrapper {
   display: flex;
   width: 100%;
